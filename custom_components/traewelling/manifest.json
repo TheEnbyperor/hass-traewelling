@@ -1,0 +1,11 @@
+{
+  "domain": "traewelling",
+  "name": "Träwelling",
+  "codeowners": ["@TheEnbyperor"],
+  "documentation": "",
+  "integration_type": "service",
+  "iot_class": "cloud_pull",
+  "requirements": [],
+  "version": "0.0.1",
+  "config_flow": true
+}

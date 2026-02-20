@@ -1,0 +1,40 @@
+{
+  "title": "Träwelling",
+  "common": {
+    "user_rejected_authorize": "The authorization request was denied.",
+    "oauth_error": "The login to Träwelling failed, please try again.",
+    "checked_in": "Checked In",
+    "not_checked_in": "Not Checked In"
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Träwelling Instance Data",
+        "data": {
+          "name": "Instance Name",
+          "instance_url": "Instance Root URL",
+          "oauth_client_id": "OAuth Client ID"
+        }
+      }
+    },
+    "error": {
+    },
+    "abort": {
+    }
+  },
+  "config_subentries": {
+    "account": {
+      "entry_type": "Account",
+      "initiate_flow": {
+        "user": "Link account"
+      },
+      "step": {
+      },
+      "error": {
+      },
+      "abort": {
+        "already_configured": "Account already linked"
+      }
+    }
+  }
+}
