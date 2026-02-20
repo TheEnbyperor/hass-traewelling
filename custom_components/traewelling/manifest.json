@@ -6,6 +6,6 @@
   "integration_type": "service",
   "iot_class": "cloud_pull",
   "requirements": [],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "config_flow": true
 }
