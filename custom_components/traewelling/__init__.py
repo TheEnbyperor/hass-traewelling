@@ -1,4 +1,5 @@
 from aiohttp import web
+from typing import Any
 from homeassistant.core import HomeAssistant
 from homeassistant.components import http
 from homeassistant.config_entries import ConfigEntry

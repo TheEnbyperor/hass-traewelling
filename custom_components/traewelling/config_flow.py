@@ -4,6 +4,7 @@ import secrets
 import hashlib
 import base64
 import datetime
+from typing import Any
 from homeassistant import config_entries
 from homeassistant.components import webhook
 from homeassistant.core import callback
@@ -17,7 +18,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=const.DOMAIN):
 
     async def async_step_user(
             self, user_input: dict[str, Any] | None = None
-    ) -> FlowResult:
+    ) -> config_entries.ConfigFlowResult:
         if user_input is None:
             return self.async_show_form(
                 step_id="user",
