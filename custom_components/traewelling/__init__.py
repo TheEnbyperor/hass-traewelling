@@ -6,6 +6,7 @@ from homeassistant.components import http
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.data_entry_flow import UnknownFlow
 from homeassistant.helpers import config_entry_oauth2_flow
+from homeassistant.helpers.typing import ConfigType
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 from .const import DOMAIN
 
